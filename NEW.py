@@ -6,9 +6,6 @@ from datetime import timedelta
 from telebot import types
 import time
 
-from keep_alive import keep_alive
-keep_alive()
-
 # Bot initialization
 bot = telebot.TeleBot('7630306892:AAFvSmee3PYScSmn4Ntmm_Uob0xmyk34hjo')
 
